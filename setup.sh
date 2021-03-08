@@ -7,7 +7,7 @@ V2RAY_INSTALL_PACK_URL='https://raw.githubusercontent.com/v2fly/fhs-install-v2ra
 bash <(curl -L ${V2RAY_INSTALL_PACK_URL})
 
 #configure v2ray
-PORT=8967
+PORT=XXXX
 CLIENT_ID=$(cat /proc/sys/kernel/random/uuid)
 
 echo "please set port as ${PORT}"
